@@ -1,5 +1,5 @@
 1. What is a React component?
-
+A reusable and parametrizable piece of React code.
 
 2. What's wrong with this code?
 ```
@@ -9,6 +9,7 @@ function myComponent() {
     )
 }
 ```
+The component should be named PascalCase, with a capital first letter.
 
 3. What's wrong with this code?
 ```
@@ -22,3 +23,4 @@ function Header() {
 
 root.render(Header())
 ```
+This is valid code, but the standard way is to render the component as an html tag.
