@@ -21,3 +21,24 @@ header > h1 {
     font-weight: 500;
     font-family: Inter;
 }
+
+main {
+    margin: 30px;    
+}
+
+article.travel-entry {
+    display: flex;
+    gap: 20px;
+}
+
+.travel-illustration {
+    width: 125px;
+    height: 165px;
+    align-self: center;
+}
+
+.travel-location {
+    display: flex;
+    gap: 10px;
+    height: 1rem;
+}

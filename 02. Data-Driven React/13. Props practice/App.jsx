@@ -17,8 +17,30 @@
  * show the punchline?
  */
 
+import Joke from "./components/Joke"
+
 export default function App() {
     return (
-        <></>
+        <main className="jokes-container">
+            <Joke
+                setup="C'est un 0 qui rencontre un 8"
+                punchline="Tiens tu as mis une ceinture ?"
+            />
+            <Joke
+                setup="I got my daughter a fridge for her birthday."
+                punchline="I can't wait to see her face light up when she opens it."
+            />
+            <Joke
+                setup="Quelle est la couleur du cheval blanc d'Henry IV ?"
+                punchline="Blanc !"
+            />
+            <Joke
+                setup="Quel bruit fait un gros poussin ?"
+                punchline="CUI CUI !"
+            />
+            <Joke
+                punchline="Etre contrôlé par la police c'est plus dangereux que le saut en parachute !"
+            />
+        </main>
     )
 }

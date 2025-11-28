@@ -1,3 +1,23 @@
 html, body {
     margin: 0;
 }
+
+header {
+    background-color: #F55A5A;
+    height: 3.5rem;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header > img {
+    height: 1.5rem;
+}
+
+header > h1 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+}

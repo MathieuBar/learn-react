@@ -15,6 +15,7 @@ export default function App() {
         <main>
             <Joke
                 punchline="It's hard to explain puns to kleptomaniacs because they always take things literally."
+                upvotes={5}
             />
             <Joke
                 setup="How did the hacker escape the police?"

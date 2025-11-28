@@ -11,10 +11,27 @@ function App() {
             <Contact
                 img="./images/mr-whiskerson.png"
                 name="Mr. Whiskerson"
+                phone="(212) 555-1234"
+                email="mr.whiskaz@catnap.meow"
             />
-            <Contact />
-            <Contact />
-            <Contact />
+            <Contact
+                img="./images/fluffykins.png"
+                name="Mr. Fluffykins"
+                phone="(212) 555-2345"
+                email="mr.fluffykins@catnap.meow"
+            />
+            <Contact
+                img="./images/mr-whiskerson.png"
+                name="Mr. Whiskerson"
+                phone="(212) 555-1234"
+                email="mr.whiskaz@catnap.meow"
+            />
+            <Contact
+                img="./images/mr-whiskerson.png"
+                name="Mr. Whiskerson"
+                phone="(212) 555-1234"
+                email="mr.whiskaz@catnap.meow"
+            />
         </div>
     )
 }

@@ -10,7 +10,7 @@ export default function App() {
     const ninjaTurtles = ["Donatello", "Michaelangelo", "Rafael", "Leonardo"]
     return (
         <main>
-            {ninjaTurtles}
+            {ninjaTurtles.map(turtle => <h2>{turtle}</h2>)}
         </main>
     )
 }
